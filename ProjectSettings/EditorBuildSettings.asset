@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Aura/Scenes/splashScene.unity
+    guid: d7a8603f0216cc74ca73e823bac9f1c4
+  - enabled: 1
+    path: Assets/Aura/Scenes/introTutorialScene.unity
+    guid: c80c6da6259927545946d66f7aed908e
+  - enabled: 1
+    path: Assets/Aura/Scenes/mainXperience.unity
+    guid: 4a84dcd576cebf340bf97ae138fdafaf
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: d6ebc5b811a10d0428c3898d08882b57, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8b1a086d1b0a50d479e9a650902d6361, type: 2}
