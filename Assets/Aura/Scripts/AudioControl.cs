@@ -4,7 +4,13 @@ using UnityEngine;
 
 public class AudioControl : MonoBehaviour
 {
+    public AudioClip buttonPressClip;
+
     private static AudioControl instance;
+    public static AudioControl Instance
+    {
+        get => instance;
+    }
     private void Awake()
     {
         if (instance)
@@ -19,5 +25,8 @@ public class AudioControl : MonoBehaviour
         DontDestroyOnLoad(gameObject);
     }
    
- 
+  public void PlayBtnPressFX()
+    {
+        GetComponent<AudioSource>().PlayOneShot(buttonPressClip);
+    }
 }
